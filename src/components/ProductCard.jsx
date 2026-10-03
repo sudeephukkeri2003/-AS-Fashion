@@ -22,7 +22,9 @@ function ProductCard({ product, onAddToCart, isWishlisted, onToggleWishlist }) {
         </div>
         <p className="product-prices"><strong>{formatPrice(product.price)}</strong><del>{formatPrice(product.originalPrice)}</del></p>
         <div className="product-actions">
-          <button className="small-add-button" type="button" onClick={() => onAddToCart(product)}>Add to Cart</button>
+          <Link className="small-add-button" to={`/product/${product.id}`}>
+  Add to Cart
+</Link>
           <Link className="view-product-link" to={`/product/${product.id}`}>View Details</Link>
         </div>
       </div>
