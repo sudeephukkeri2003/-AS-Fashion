@@ -10,7 +10,7 @@ function WishlistPage({ wishlist, onToggleWishlist, onAddToCart }) {
   return (
     <main className="catalog-page">
       <div className="catalog-heading">
-        <p className="detail-eyebrow">AS FASHION / SAVED ITEMS</p>
+        <p className="detail-eyebrow">SPY FASHIONS / SAVED ITEMS</p>
         <h1>My Wishlist</h1>
         <p>Your favourite pieces, saved for later.</p>
       </div>

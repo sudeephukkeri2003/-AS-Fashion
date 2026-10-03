@@ -65,7 +65,7 @@ function CategoryPage({ onAddToCart, wishlist, onToggleWishlist }) {
   return (
     <main className="catalog-page">
       <div className="catalog-heading">
-        <p className="detail-eyebrow">AS FASHION / COLLECTIONS</p>
+        <p className="detail-eyebrow">SPY FASHIONS / COLLECTIONS</p>
         <h1>{pageTitle}</h1>
         <p>Considered pieces for everyday expression.</p>
       </div>

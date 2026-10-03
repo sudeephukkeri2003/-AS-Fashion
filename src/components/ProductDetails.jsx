@@ -22,7 +22,7 @@ function ProductDetails({ product, onAddToCart, isWishlisted, onToggleWishlist }
       <section className="product-detail">
         <div className="detail-image-main"><img src={product.image} alt={product.name} /></div>
         <div className="detail-copy">
-          <p className="detail-eyebrow">AS FASHION / {category.name.toUpperCase()}</p>
+          <p className="detail-eyebrow">SPY FASHIONS / {category.name.toUpperCase()}</p>
           <h1>{product.name}</h1>
           <p className="detail-rating">★ {product.rating.toFixed(1)} <span>· 18 reviews</span></p>
           <div className="detail-price"><strong>{formatPrice(product.price)}</strong><del>{formatPrice(product.originalPrice)}</del><span>{discount}% off</span></div>

@@ -25,7 +25,7 @@ function HomePage({ onAddToCart, wishlist, onToggleWishlist }) {
       </section>
       <section className="promo">
         <div>
-          <p>AS FASHION COLLECTION</p>
+          <p>SPY FASHIONS COLLECTION</p>
           <h2>Fashion that feels like you.</h2>
           <Link className="light-button" to="/category/women">EXPLORE NOW <span aria-hidden="true">→</span></Link>
         </div>

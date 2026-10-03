@@ -24,8 +24,8 @@ function Header({ cartCount, wishlistCount }) {
 
   return (
     <header className="header">
-      <Link className="logo" to="/" aria-label="AS Fashion home">
-        AS<span>FASHION</span>
+      <Link className="logo" to="/" aria-label="SPY FASHIONS home">
+        SPY<span>FASHIONS</span>
       </Link>
 
       <button

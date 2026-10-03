@@ -7,7 +7,7 @@ function Footer() {
       <footer className="footer">
         <div className="footer-brand">
           <Link className="logo" to="/">AS<span>FASHION</span></Link>
-          <p>Modern essentials, considered details. Find your next favourite at AS Fashion.</p>
+          <p>Modern essentials, considered details. Find your next favourite at SPY FASHIONS.</p>
         </div>
         <div className="footer-column">
           <h4>SHOP</h4>
@@ -25,7 +25,7 @@ function Footer() {
           <a href="https://pinterest.com">Pinterest</a>
         </div>
       </footer>
-      <div className="copyright">© 2026 AS Fashion. All rights reserved.</div>
+      <div className="copyright">© 2026 SPY FASHIONS. All rights reserved.</div>
     </>
   )
 }
