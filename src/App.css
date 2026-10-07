@@ -1461,3 +1461,74 @@ a {
     padding: 25px;
   }
 } 
+/* About Page */
+
+.about-page {
+  padding: 70px 7%;
+  background: #fff;
+}
+
+.about-page .catalog-heading {
+  max-width: 850px;
+  margin-bottom: 50px;
+}
+
+.about-page .catalog-heading h1 {
+  font-size: 52px;
+  margin: 10px 0 18px;
+}
+
+.about-page .catalog-heading p:last-child {
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1100px;
+}
+
+.about-card {
+  border: 1px solid #e5e5e5;
+  padding: 35px;
+  background: #fafafa;
+}
+
+.about-card h2 {
+  margin: 0 0 20px;
+  font-size: 25px;
+}
+
+.about-card p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-card ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #666;
+  line-height: 2;
+}
+
+@media (max-width: 760px) {
+  .about-page {
+    padding: 45px 20px;
+  }
+
+  .about-page .catalog-heading h1 {
+    font-size: 36px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-card {
+    padding: 25px;
+  }
+}
