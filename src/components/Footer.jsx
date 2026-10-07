@@ -6,7 +6,7 @@ function Footer() {
     <>
       <footer className="footer">
         <div className="footer-brand">
-          <Link className="logo" to="/">AS<span>FASHION</span></Link>
+          <Link className="logo" to="/">SPY<span>FASHION</span></Link>
           <p>Modern essentials, considered details. Find your next favourite at SPY FASHIONS.</p>
         </div>
         <div className="footer-column">
@@ -15,9 +15,9 @@ function Footer() {
         </div>
         <div className="footer-column">
           <h4>HELP</h4>
-          <a href="mailto:hello@asfashion.example">Contact Us</a>
-          <a href="mailto:hello@asfashion.example">Shipping & Returns</a>
-          <a href="mailto:hello@asfashion.example">FAQs</a>
+          <a href="mailto:hello@SPY FASHIONS.example">Contact Us</a>
+          <a href="mailto:hello@SPY FASHIONS.example">Shipping & Returns</a>
+          <a href="mailto:hello@SPY FASHIONS.example">FAQs</a>
         </div>
         <div className="footer-column">
           <h4>FOLLOW</h4>
