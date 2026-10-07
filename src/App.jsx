@@ -9,6 +9,7 @@ import CategoryPage from './pages/CategoryPage.jsx'
 import HomePage from './pages/HomePage.jsx'
 import ProductPage from './pages/ProductPage.jsx'
 import WishlistPage from './pages/WishlistPage.jsx'
+import ContactPage from './pages/ContactPage.jsx'
 
 function AppContent() {
   const [cartItems, setCartItems] = useState(() => {
@@ -127,6 +128,7 @@ function AppContent() {
     />
   }
 />
+<Route path="/contact" element={<ContactPage />} />
 
         <Route
           path="/checkout"

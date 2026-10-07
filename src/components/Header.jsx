@@ -54,6 +54,9 @@ function Header({ cartCount, wishlistCount }) {
           </Link>
         ))}
       </nav>
+      <Link to="/contact" onClick={closeMenu}>
+  Contact
+</Link>
 
       <div className="header-icons">
         <form className="search-form" onSubmit={handleSearch}>
